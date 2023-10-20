@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../CSS/isstyle.css" />
+  </head>
+  <body>
+    <main>
+      <!--Header contect-logo and bunner-->
+      <header>
+        <img src="../IMAGES/logo.png" alt="logo image" style="width: 100%" />
+        <div id="banner"></div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../HTML/gallery.html">Gallery</a></li>
+          <li id="active"><a href="contact.html">Contact</a></li>
+        </ul>
+
+       
+      </nav>
+      <article id="contactArticle">
+          <table>
+            <tr>
+              <td>Name:</td>
+              <td>Puppy school</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>happydog@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Phone:</td>
+              <td>+61123456789</td>
+            </tr>
+            <tr>
+              <td>Address:</td>
+              <td>4 Lucky street, Brisbane, 4000</td>
+            </tr>
+          </table>
+          <form action="../index.html" method="get">
+
+            <label> First Name : </label>
+            <input type="text" pattern="[a-zA-Z]+" required>
+            
+            </label> Last Name: </label>
+            <input type="text" pattern="[a-zA-Z]+" maxlength="10">
+            
+            <label> E-mail : </label>
+            <input type="E-mail">
+            
+            <label> Phone: </label>
+            <input type="text" id="phone" pattern="[0-9]+" minlength="10" maxlength="10">
+            
+            <label > Username : </label>
+            <input type="text">
+            
+            <label> Password: </label>
+            <input type="password">
+            
+            <Label>Select  Location : </Label>
+            <select>
+                <optgroup label="City location">
+                    <option value="SB">South Bank</option>  
+                </optgroup>
+            
+                <optgroup label="South location">
+                    <option value="LL">Logan</option>
+                </optgroup>
+               
+               <optgroup label="North Location">
+                <option value="BR">Bracken Ridge</option>
+                <option value="CB">Caboolture</option>
+            </optgroup>
+            
+            </select>
+            
+            <Label>How did you hear about us?</Label>
+            <div>
+            <input type="checkbox" value="google">Social media
+            <input type="checkbox" value="friends">Friends
+            <input type="checkbox" value="other">Other
+            </div>
+            
+            <label>Are you with our T&C?</label>
+            <div>
+                <input type="radio" name= "agree" value="yes" > Yes
+                <input type="radio" name= "agree" value="no" > No
+            </div>
+                      
+            <input type="submit" value="Click Me">
+            
+            
+            </form>
+      </article>
+      <footer>
+        <div id="topFooter">
+          <a href="https://www.facebook.com/"
+            ><img src="../IMAGES/facebook-app-icon.png" alt="Facebook icon"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img src="../IMAGES/ig-instagram-icon.png" alt="Instagram icon"
+          /></a>
+          <a href="https://twitter.com/"
+            ><img
+              src="../IMAGES/twitter-square-color-icon.png"
+              alt="Twitter icon"
+          /></a>
+        </div>
+        <div id="bottomFooter">&copy; Irina Gorozhina 2023.</div>
+      </footer>
+    </main>
+  </body>
+</html>
